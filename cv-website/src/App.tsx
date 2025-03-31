@@ -1,10 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { Graphic } from './models/Graphic'
+import GraphicOnDisplayList from './components/GraphicOnDisplayList'
 import './App.css'
 
 function App() {
+  // OUR ENTIRE REACT APP LIVES HERE. THIS IS THE BASE
   const [count, setCount] = useState(0)
+
+  const items = [
+    new Graphic("1", 'Item 1'),
+    new Graphic("2", 'Item 2'),
+  ];
 
   return (
     <>
@@ -28,6 +36,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <GraphicOnDisplayList graphics={items}/>
     </>
   )
 }
