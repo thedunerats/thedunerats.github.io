@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.home-formatting-div {
+    background: radial-gradient(600px at 1187px 527px, rgba(29, 78, 216, 0.15), transparent 80%);
+}
