@@ -81,23 +81,11 @@ function HomePage() {
                         <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                             <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
                         </div>
-                        {/* CUSTOMIZE THIS TEXT TO YOU */}
+                        {/* CUSTOMIZE THIS TEXT*/}
                         <div>
                             <p className="mb-4">I'm an engineer passionate about solving problems in order to better the lives of both myself and others.</p>
                             <p className="mb-4">Driven by curiosity and a love for solving problems, I’m a full stack developer who thrives on learning something new every day. From front-end frameworks to back-end architecture, I enjoy diving deep into the full stack and building clean, scalable solutions. The ever-evolving nature of tech keeps me hooked—there’s always a new challenge, a new tool, or a better way to do things. From data pipelines to streamlining your business analytics, companion apps for wearable tech or backend servers for e-commerce platforms -- I do it all.</p>
-                            <p className="mb-4">Outside of coding, you’ll find me exploring new topics, staying active, or geeking out over a good book or podcast.
-                                {/* <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.klaviyo.com/" target="_blank" rel="noreferrer noopener" aria-label="Klaviyo (opens in a new tab)">Klaviyo</a>, 
-                                specializing in accessibility. I contribute to the creation and maintenance of UI components that power Klaviyo’s frontend, ensuring our platform meets web accessibility standards and best practices to deliver an inclusive user experience. */}
-                            </p>
-                            {/* <p className="mb-4">In the past, I've had the opportunity to develop software across a variety of settings — from
-                                <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://us.mullenlowe.com/" target="_blank" rel="noreferrer noopener" aria-label="advertising agency (opens in a new tab)">advertising agencies</a>
-                                <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.apple.com/apple-music/" target="_blank" rel="noreferrer noopener" aria-label="huge corporation (opens in a new tab)">large corporations</a>
-                                <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://starry.com/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)">start-ups</a>
-                                <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://upstatement.com/" target="_blank" rel="noreferrer noopener" aria-label="digital product studio (opens in a new tab)">small digital product studios</a>. 
-                                Additionally, I also released a
-                                <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.newline.co/courses/build-a-spotify-connected-app" target="_blank" rel="noreferrer noopener" aria-label="online video course (opens in a new tab)">comprehensive video course</a> 
-                                a few years ago, guiding learners through building a web app with the Spotify API.
-                            </p> */}
+                            <p className="mb-4">Outside of coding, you’ll find me exploring new topics, staying active, or geeking out over a good book or podcast.</p>
                             <p className="mb-4">Differ from the others. Drive the creativity train. Do good every day.</p>
                         </div>
                     </section>
