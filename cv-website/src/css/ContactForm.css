@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.form-field {
+    padding: 6px;
+}
