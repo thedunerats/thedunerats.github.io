@@ -10,9 +10,9 @@ function HomePage() {
                 {/* 2 columnar divs go in here */}
                 <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
                     <div>
-                        <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>Richard Bassin</h1>
-                        <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>Software Engineer</h2>
-                        <p className='mt-4 max-w-xs leading-normal'>This is a bio! Does it work as intended?</p>
+                        <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl title-text'>Richard Bassin</h1>
+                        <h2 className='text-lg font-medium tracking-tight text-slate-200 sm:text-xl title-text job-title'>Software Engineer</h2>
+                        <p className='max-w-xs leading-normal title-text job-description'>This is a bio! Does it work as intended?</p>
                         <nav className='nav hidden lg:block mt-16'>
                             <ul className='w-max'>
                                 {/* TODO: SPACE THE LIST ELEMENTS APART FROM ONE ANOTHER */}

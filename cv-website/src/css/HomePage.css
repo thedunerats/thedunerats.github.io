@@ -4,6 +4,14 @@
     /* background: radial-gradient(600px at 1187px 527px, rgba(29, 78, 216, 0.15), transparent 80%); */
 } /* FIXME: doesn't cover whole page, only one corner. dones't interact with cursor. Fix or eliminate */
 
+.job-title {
+    padding-top: 0.75rem;
+}
+
+.job-description {
+    padding-top: 1rem;
+}
+
 .list-link {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -44,4 +52,8 @@ a:hover {
 
 .header-text:hover {
     color: #f6b095;
+}
+
+.title-text {
+    text-align: left;
 }
