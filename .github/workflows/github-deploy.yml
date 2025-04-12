@@ -38,6 +38,9 @@ jobs:
           node-version: 20
           cache: 'npm'
 
+      - name: Log Current folder
+        run: ls
+
       - name: Change to Correct Directory
         run: cd cv-website
       
