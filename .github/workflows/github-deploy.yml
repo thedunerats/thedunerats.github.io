@@ -41,7 +41,7 @@ jobs:
         with: # need path if package.json not at repo root
           node-version: 20
           cache: 'npm'
-          cache-dependency-path: cv-website/package-lock.json
+          # cache-dependency-path: cv-website/package-lock.json
       
       - name: Install dependencies
         run: npm ci
@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
-          path: './dist'
+          path: 'dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
