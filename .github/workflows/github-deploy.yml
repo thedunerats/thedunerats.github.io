@@ -36,8 +36,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Move into Correct Directory
-        run: alias proj="cd cv-website" # only happens within the shell, the alias gets around it
+      # - name: Move into Correct Directory
+      #   run: alias proj="cd cv-website" # only happens within the shell, the alias gets around it
       
       - name: Set up Node
         uses: actions/setup-node@v4
