@@ -37,12 +37,6 @@ jobs:
           cache-dependency-path: cv-website/package-lock.json
           node-version: 20
           cache: 'npm'
-
-      - name: Change to Correct Directory
-        run: cd cv-website
-
-      - name: Log Current folder Contents
-        run: ls
       
       - name: Install dependencies
         run: npm ci
