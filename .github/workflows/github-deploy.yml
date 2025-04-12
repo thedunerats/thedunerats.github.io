@@ -20,10 +20,10 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
-defaults:
+defaults: 
   run:
     shell: bash
-    working-directory: ./cv-website
+    working-directory: ./cv-website # this is needed to run in a subfolder of the root directory
 
 jobs:
   # Single deploy job since we're just deploying
@@ -35,9 +35,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # - name: Move into Correct Directory
-      #   run: alias proj="cd cv-website" # only happens within the shell, the alias gets around it
       
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -54,6 +51,9 @@ jobs:
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
+      - name: Troubleshoot statement
+        run: ls
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
