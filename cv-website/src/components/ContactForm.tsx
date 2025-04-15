@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mnnpowbv");
   if (state.succeeded) {
-      return <p>Thanks for stopping by!</p>;
+      return <p>Thanks for reaching out!</p>;
   }
   return (
     <form className='mt-12' onSubmit={handleSubmit}>
@@ -44,7 +44,7 @@ function ContactForm() {
             field="message"
             errors={state.errors}
         />
-      <button type="submit" disabled={state.submitting}>Submit</button>
+      <button className="contact-form-button" type="submit" disabled={state.submitting}>Submit</button>
     </form>
   );
 }

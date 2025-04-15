@@ -54,6 +54,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+/* This is breaking the text on the link page */
+/* This affects both the button on the homepage and
+the links on the link page. Find a way to make this change only one of them*/
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

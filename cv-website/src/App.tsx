@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 // import GraphicOnDisplayList from './components/GraphicOnDisplayList'
 import './css/App.css'
+import LinkPage from './pages/LinkPage'
 
 function App() {
   // OUR ENTIRE REACT APP LIVES HERE. THIS IS THE BASE
@@ -35,6 +36,7 @@ function App() {
     <main className="main-contents">
       <Routes>
         <Route path="/" element={<HomePage />}/>
+        <Route path="links" element={<LinkPage />} />
       </Routes>
     </main>
   )
