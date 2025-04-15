@@ -14,7 +14,7 @@ function ContactForm() {
             type="name" 
             name="name"
             placeholder='Your Name'
-            className='mt-2 mb-2 w-full bg-zinc-700 rounded form-field'
+            className='mt-2 mb-2 w-full bg-zinc-700 rounded contact-form-field'
         />
         <ValidationError 
             prefix="Name" 
@@ -26,7 +26,7 @@ function ContactForm() {
             type="email" 
             name="email"
             placeholder='Email Address'
-            className='mt-2 mb-2 w-full bg-zinc-700 rounded form-field'
+            className='mt-2 mb-2 w-full bg-zinc-700 rounded contact-form-field'
         />
         <ValidationError 
             prefix="Email" 
@@ -37,7 +37,7 @@ function ContactForm() {
             id="message"
             name="message"
             placeholder='Your Message'
-            className='mt-2 mb-2 w-full bg-zinc-700 rounded form-field'
+            className='mt-2 mb-2 w-full bg-zinc-700 rounded contact-form-field'
         />
         <ValidationError 
             prefix="Message" 
