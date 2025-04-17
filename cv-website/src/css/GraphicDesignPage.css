@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.graphic-design-page-carousel-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+  
+.graphic-design-page-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding: 0 20px;
+}
+  
+.graphic-design-page-carousel img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+  
+.graphic-design-page-carousel img:hover {
+    transform: scale(1.05);
+}

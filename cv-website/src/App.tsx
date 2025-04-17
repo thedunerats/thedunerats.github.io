@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 // import GraphicOnDisplayList from './components/GraphicOnDisplayList'
 import './css/App.css'
 import LinkPage from './pages/LinkPage'
+import GraphicDesignPage from './pages/GraphicDesignPage'
 
 function App() {
   // OUR ENTIRE REACT APP LIVES HERE. THIS IS THE BASE
@@ -34,10 +35,11 @@ function App() {
     //   <GraphicOnDisplayList graphics={items}/>
     // </>
     <main className="main-contents">
-      <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="links" element={<LinkPage />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="links" element={<LinkPage />} />
+          <Route path="graphics" element={<GraphicDesignPage />} />
+        </Routes>
     </main>
   )
 }

@@ -19,7 +19,7 @@ function LinkPage(){
             </li>
             <li className='linkpage-list-link'>
                 <div className="linkpage-link-container">
-                    <a href="https://yourlink.com" className="linkpage-link-button">My Graphic Designs</a>
+                    <Link to="/graphics" className="linkpage-link-button">RABTees</Link>
                 </div>
             </li>
         </ul>
