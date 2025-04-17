@@ -32,7 +32,7 @@ function GraphicDesignPage() {
   return (
     // We are trying to build more than 1 carousel. Do one for t shirts and one for logos.
     // I think most graphic design showcases are kind of bloated. I want to keep mine simple and compact.
-    <div className="h-full text-5xl fixed overflow-auto top-0 inset-x-0 text-center bg-zinc-900">
+    <div className="h-full fixed overflow-auto top-0 inset-x-0 text-center bg-zinc-900">
       <header className='linkpage-header-text text-slate-200 mt-2 mb-4'>RABTees</header>
       <h5 className='text-sm text-slate-200 mt-2 mb-4'>You want it? We make it!</h5>
       <ImageCarousel graphics={gamingItems}/>
@@ -42,7 +42,9 @@ function GraphicDesignPage() {
       <h5 className='text-sm text-slate-200 mt-1 mb-1'>Let’s create something amazing together!</h5>
       <ImageCarousel graphics={businessItems}/>
       {/* Place contact form inside appropriately sized div first */}
-      
+      <div className='mt-8 text-slate-400 graphic-design-page-form-container'>
+        <ContactForm/>
+      </div>
     </div>
   )
 }

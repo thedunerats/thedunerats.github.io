@@ -30,3 +30,8 @@
 .graphic-design-page-carousel img:hover {
     transform: scale(1.05);
 }
+
+.graphic-design-page-form-container {
+    display: flex;
+    justify-content: center;
+}
