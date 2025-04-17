@@ -1,8 +1,8 @@
 export class Graphic {
     name: string;
-    location: string;
-    constructor(name: string, location: string) {
+    source: string;
+    constructor(name: string, source: string) {
         this.name = name;
-        this.location = location
+        this.source = source;
     }
 }

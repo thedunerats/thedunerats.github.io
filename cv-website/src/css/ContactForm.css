@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
-.form-field {
+.contact-form-field {
     padding: 6px;
 }
+
+.contact-form-button {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  .contact-form-button:hover {
+    border-color: #646cff;
+  }
+  .contact-form-button:focus,
+  .contact-form-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }

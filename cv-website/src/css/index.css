@@ -35,14 +35,15 @@ body {
   line-height: 1.1;
 } */
 
-button {
+/* This is now done in the contact form component*/
+/* button {
+  background-color: #ffffff;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -52,8 +53,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
+
+/* This is breaking the text on the link page */
+/* This affects both the button on the homepage and
+the links on the link page. Find a way to make this change only one of them*/
+/* we can definitely use this elsewhere. We just Need to  paste it and change the classes*/
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -59,6 +59,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
+          # This needs to be an absolute path, not a relative path to the default working directory
           path: 'cv-website/dist'
 
       - name: Deploy to GitHub Pages

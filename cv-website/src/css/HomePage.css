@@ -4,56 +4,56 @@
     /* background: radial-gradient(600px at 1187px 527px, rgba(29, 78, 216, 0.15), transparent 80%); */
 } /* FIXME: doesn't cover whole page, only one corner. dones't interact with cursor. Fix or eliminate */
 
-.job-title {
+.homepage-job-title {
     padding-top: 0.75rem;
 }
 
-.job-description {
+.homepage-job-description {
     padding-top: 1rem;
 }
 
-.list-link {
+.homepage-list-link {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
 
-.columnar-formatting {
+.homepage-columnar-formatting {
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
-.resume-skill-list-item {
+.homepage-resume-skill-list-item {
     margin-right: 0.375rem;
 }
 
-.experience-list-item {
+.homepage-experience-list-item {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.social-media-icon {
+.homepage-social-media-icon {
     margin-right: 1rem;
 }
 
-a {
+.homepage-link {
   font-weight: 500;
   color: #f66f51;
   text-decoration: inherit;
 }
-a:hover {
+.homepage-link:hover {
   color: #f6b095;
 }
 
-.header-text {
+.homepage-header-text {
     font-weight: 500;
     color: #f66f51;
     text-decoration: inherit;
 }
 
-.header-text:hover {
+.homepage-header-text:hover {
     color: #f6b095;
 }
 
-.title-text {
+.homepage-title-text {
     text-align: left;
 }
